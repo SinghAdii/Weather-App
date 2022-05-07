@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #3EEFE5;
+}
+.header {
+    background-color: rgb(0,0,0,0.06);
+    width: auto;
+    height: 60px;
+}
+#header_text {
+    text-align: center;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    margin: 5px 20px 10px 20px;
+    padding: 10px;
+    float: left;
+    font: caption;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(78, 1, 74);
+}
+#header_text:hover {
+    color: rgb(117, 129, 3);
+}
+.header_right {
+    height: 80px;
+    
+}
+.header_link {
+    /* height: 80px; */
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    /* font-size: 1.5em; */
+    float: right;
+    margin: 10px 20px 0 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.header_link:hover {
+    color: rgb(1, 7, 63);
+}
+#main_content {
+    height: 350px;
+    width: auto;
+    margin: 0;
+    text-align: center;
+    /* background-color: rgb(232, 243, 167); */
+    padding: 130px;
+}
+#main_content h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+#form {
+    align-content: center;
+}
+#input {
+    padding: 5px;
+}
+
+#button {
+    background-color: rgb(32, 88, 127);
+    padding: 5px;
+    color: #f1f1f1;
+}
+footer {
+    text-align: center;
+    padding: 2px;
+}
+#main_content_about {
+    height: 480px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+}
+#main_content_portfolio {
+    height: 480px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+}
